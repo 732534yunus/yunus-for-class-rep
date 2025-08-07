@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vote Alhassan Yunus - UG Dental Class Rep</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous"
+  />
+
+  <style>
+    * {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+    }
+
+    .btn-custom {
+      background: linear-gradient(135deg, #ffc107, #fcd75a);
+      border: none;
+      padding: 12px 30px;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-custom:hover {
+      background: linear-gradient(135deg, #f7b801, #ffd84d);
+      transform: scale(1.05);
+    }
+
+    /* WHY SECTION */
+    .section {
+      padding: 80px 20px;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    .card-style {
+      background-color: white;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+      text-align: left;
+    }
+
+    .card-style ul {
+      font-size: 1.05rem;
+      padding-left: 20px;
+      list-style: none;
+    }
+
+    .card-style ul li::before {
+      content: "✔️ ";
+      margin-right: 8px;
+    }
+
+    .card-style p {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .btn-custom {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="top">
+    <h1>Vote Alhassan Yunus</h1>
+    <p>UG Dental School • First Clinical Year</p>
+    <p>Strong Leadership. Clear Vision. Your Voice.</p>
+    <a href="#why" class="btn btn-custom">Why You Should Vote</a>
+  </section>
+
+  <!-- WHY VOTE SECTION -->
+  <section class="section" id="why">
+    <h2>Why Vote Alhassan Yunus?</h2>
+    <div class="card-style">
+      <p><strong>Hello colleagues,</strong></p>
+      <p>I'm Yunus, a student passionate about leadership and service. As we enter our clinical journey, I understand the pressures ahead and the value of communication, support, and unity.</p>
+
+      <p><strong>Here’s what I’ll work hard to deliver as your Class Rep:</strong></p>
+      <ul>
+        <li>Clear and consistent updates from faculty</li>
+        <li>Strong advocacy for our academic and clinical welfare</li>
+        <li>Collaboration and respect across the class</li>
+        <li>Timely solutions to problems you raise</li>
+        <li>Transparency in decisions and representation</li>
+      </ul>
+
+      <p>Let’s make our first clinical year productive, united, and empowering — together.</p>
+      <p><strong>On August 8th, vote confidence. Vote leadership. Vote Yunus.</strong></p>
+      <div class="text-center">
+        <a href="#top" class="btn btn-custom mt-4">Back to Top</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Alhassan Yunus • UG Dental School
+  </footer>
+
+</body>
+</html>
